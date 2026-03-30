@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+:root {
+    --main-color: rgb(3, 3, 57);
+    --main-light-color: rgb(238, 244, 255);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+.nav.scrolled{
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.408);
+}
+.nav.scrolled{
+    transition: color 0.3s ease;
+}
+.nav-logo p{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type:none ;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+    padding: 5px;
+    z-index: 5;
+}
+.headericons{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    cursor:pointer;
+}
+.head{color: white;}
+.head:hover{
+    transform: translateY(-2px);
+}
+.hamburger {
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 20px;
+    z-index: 5;
+    top: 15px;
+}
+.hamburger span{
+    width: 40px;
+    height: 3px;
+    border-radius: 50px;
+}
+#cover{
+    background-color: var(--main-color);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+#covertxt {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+    position: relative; 
+    z-index: 3;
+}
+#covertxt p{
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    margin-bottom: 10px;
+}
+.scrolled{
+    .nav-menu ul li a, .nav-logo p, .head{ 
+        color:var(--main-color)
+    }
+    .nav-menu ul li a, .nav-logo p, .head{
+        transition: color 0.3s ease;
+    }
+
+}
+.sec1 {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.sec1 h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.form-row input,
+textarea {
+    display: flex;
+    flex:none; 
+    min-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    flex:content; 
+    resize: none;
+}
+#msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button#subbtn {
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button#subbtn:hover {
+    background-color: #0056b3;
+}
+#hi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formimg {
+    margin-top: 20px;
+    height: 200px;
+    width: 575px;
+    background-color: #f4f4f4; 
+    border: 1px dashed #ccc;
+}
+footer {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 150px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section .social-icons span {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}

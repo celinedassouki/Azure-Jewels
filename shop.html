@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device width, initial-scale=1.0">
+    <title>Azure Jewels</title>
+    <link rel="icon" type="image/PNG" href="imgs copy/Azurelogo.PNG">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="shortcut icon" href="">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_circle_up,person" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="R">
+    <nav class="nav">
+        <div class="nav-logo">
+            <p>Azure Jewels</p>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+        <div class="nav-menu" id="navbar">
+            <ul>
+                <li><a href="index.html" class="link active">Home</a></li>
+                <li><a href="shop.html" class="link">Shop</a></li>
+                <li><a href="about.html" class="link">About Us</a></li>
+                <li><a href="contact.html" class="link">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="icons">
+            <button class="headericons" id="log-icon"><span class="material-symbols-outlined head" style=" font-size:33px"> person </span></button>
+            <button class="headericons" id="cartbtn"><i class="material-icons head cartt" style=" font-size:30px">shopping_cart</i></button>
+        </div>
+    </nav>
+
+    <div id="cover2">
+        <div id="covertxt2">
+            <h1>Discover the Art of Jewelry,<br> Designed Just for You</h1>
+            <p>Browse Exquisite Designs Now!</p>
+        </div>
+    </div>
+
+
+
+    <section class="searching">
+       <input type="text" id="search" placeholder="Search for products...">
+       <span><i class="material-icons">search</i></span>
+    </section>
+    <section class="filters">
+       <div class="filtercat">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="silver">Silver</button>
+        <button class="filter-btn" data-category="diamond">Diamond</button>
+       </div>
+       <div class="filtertype">
+        <button class="filter-btn" data-type="all">All</button>
+        <button class="filter-btn" data-type="necklace">Necklaces</button>
+        <button class="filter-btn" data-type="bracelet">Bracelets</button>
+        <button class="filter-btn" data-type="earrings">Earrings</button>
+       </div>
+    </section>
+    <section class="pdts">
+        <div class="products-container" id="products-container">
+        </div>
+    </section>
+    <section class="thecart">
+        <div id="cart">
+            <div id="yourItems"></div>
+            <div id="cartisempty"></div>
+            <div>
+                <div id="cart-container">
+                </div>
+                <span class="closeCart">&times;</span>
+                <span id="checkout" >
+                    <button id="checkoutbtn">Checkout</button></span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section logo">
+                <h2>Azure Jewels</h2>
+                <p>Crafted with love,<br> Worn with Pride.</p>
+                <p><span>&#x1F4CD;</span> Beirut, Hamra Street</p>
+            </div>
+            <div class="footer-section overview">
+                <h3>Overview</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Our Story</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="footer-section categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li>Silver</li>
+                    <li>Diamond</li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>&#x260E; +961 81 111 111</p>
+                <p>&#x2709; azurejewels@gmail.com</p>
+                <div class="social-icons">
+                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-x-twitter"></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Azure Jewels. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="shop.js"></script>
+</body>

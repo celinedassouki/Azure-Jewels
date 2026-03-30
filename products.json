@@ -1,0 +1,123 @@
+[ 
+{
+    "id": 1,
+    "name": "Shimmering Ivy Cuff",
+    "category": "silver",
+    "type": "bracelet",
+    "price": 222,
+    "image": "imgs copy/1.jpeg"
+},
+{
+    "id": 2,
+    "name": "Lustrous Halo Pendant",
+    "category": "diamond",
+    "type": "necklace",
+    "price": 480,
+    "image": "imgs copy/2.jpeg"
+},
+{
+    "id": 3,
+    "name": "Diamond Dew Bangle",
+    "category": "silver",
+    "type": "bracelet",
+    "price": 750,
+    "image": "imgs copy/3.jpeg"
+},
+{
+    "id": 4,
+    "name": "Stardust Tennis Bracelet",
+    "category": "diamond",
+    "type": "bracelet",
+    "price": 400,
+    "image": "imgs copy/4.jpeg"
+},
+{
+    "id": 5,
+    "name": "Crystal Horizon Chain",
+    "category": "silver",
+    "type": "bracelet",
+    "price": 620,
+    "image": "imgs copy/5.jpeg"
+},
+{
+    "id": 6,
+    "name": "Celestial Spark Hoops",
+    "category": "silver",
+    "type": "earrings",
+    "price": 380,
+    "image": "imgs copy/6.jpeg"
+},
+{
+    "id": 7,
+    "name": "Eternal Starlight Chain",
+    "category": "diamond",
+    "type": "necklace",
+    "price": 500,
+    "image": "imgs copy/7.jpeg"
+},
+{
+    "id": 8,
+    "name": "Enchanted Vine Bracelet",
+    "category": "diamon",
+    "type": "bracelet",
+    "price": 670,
+    "image": "imgs copy/8.jpeg"
+},
+{
+    "id": 9,
+    "name": "Twilight Glimmer Studs",
+    "category": "silver",
+    "type": "bracelet",
+    "price": 200,
+    "image": "imgs copy/9.jpeg"
+},
+{
+    "id": 10,
+    "name": "Frosted Mirage Cuff",
+    "category": "diamond",
+    "type": "bracelet",
+    "price": 222,
+    "image": "imgs copy/10.jpeg"
+},
+{
+    "id": 11,
+    "name": "Aurora Drop Earrings",
+    "category": "silver",
+    "type": "earrings",
+    "price": 200,
+    "image": "imgs copy/11.jpeg"
+},
+{
+    "id": 12,
+    "name": "Radiant Orbit Climbers",
+    "category": "diamond",
+    "type": "earrings",
+    "price": 500,
+    "image": "imgs copy/12.jpeg"
+},
+{
+    "id": 13,
+    "name": "Frosted Petal Dangles",
+    "category": "silver",
+    "type": "earrings",
+    "price": 300,
+    "image": "imgs copy/13.jpeg"
+},
+{
+    "id": 14,
+    "name": "Moonlit Cascade Necklace",
+    "category": "diamond",
+    "type": "necklace",
+    "price": 100,
+    "image": "imgs copy/14.jpeg"
+},
+{
+    "id": 15,
+    "name": "Ethereal Glow Chandeliers",
+    "category": "silver",
+    "type": "earrings",
+    "price": 400,
+    "image": "imgs copy/15.jpeg"
+}
+
+]

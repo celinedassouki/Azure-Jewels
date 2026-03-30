@@ -1,0 +1,320 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: Border-box;
+    font-family: poppins;
+}
+ul{
+    list-style: none;
+}
+:root{
+    --main-color: rgb(3, 3, 57);
+    --main-light-color: rgb(238, 244, 255);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+.nav.scrolled{
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.408);
+}
+.nav.scrolled{
+    transition: color 0.3s ease;
+}
+.nav-logo p{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type:none ;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+    padding: 5px;
+    z-index: 5;
+}
+.headericons{
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    cursor:pointer;
+}
+.head{color: white;}
+.head:hover{
+    transform: translateY(-2px);
+}
+.hamburger {
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 20px;
+    z-index: 5;
+    top: 15px;
+}
+.hamburger span{
+    width: 40px;
+    height: 3px;
+    border-radius: 50px;
+}
+#cover{
+    background-image: url(imgs\ copy/image0.jpeg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+}
+#cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-color: rgba(56, 109, 170, 0.07); 
+    z-index: 1; 
+}
+#covertxt {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    color: white;
+    position: relative; 
+    z-index: 3;
+}
+#covertxt p{
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#covertxt button{
+    padding: 10px;
+    width: 110px;
+    height: 40px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    background-color:var(--main-color);
+}
+#covertxt a button{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#covertxt button:hover{
+    transform: scale(1.04);
+}
+.scrolled{
+    .nav-menu ul li a, .nav-logo p, .head{ 
+        color:var(--main-color)
+    }
+    .nav-menu ul li a, .nav-logo p, .head{
+        transition: color 0.3s ease;
+    }
+
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 40px;
+    justify-items: center;
+    justify-content: center;
+    gap: 50px;}
+.dis1,.dis2{
+    background-image: url(imgs\ copy/5.jpeg);
+    width: 400px;
+    height: 280px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dis{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.dis p{
+    margin-top: 90px;
+    margin-left: 60px;
+}
+.dis h2{
+    margin-left: 100px;
+    
+}
+.discount p{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.discount h2{
+    margin-left: 100px;
+}
+.big h2{
+    font-size: 50px;
+}
+
+.big{
+    width: 600px;
+    height: 600px;
+    background-image: url(imgs\ copy/image1.jpeg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    box-shadow:  10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+#shopnow-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#shopnow-btn button{
+    background-color: var(--main-color);
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+}
+#feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feedback-box {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-width: 500px;
+   
+}
+  
+.feedback-content {
+    overflow: hidden;
+    height: 120px; 
+}
+  
+.feedback-item {
+    display: none;
+}
+  
+.feedback-item.active {
+   display: block;
+    animation: fadeIn 0.5s;
+}
+  
+.feedback-controls {
+    margin-top: 20px;
+}
+#prev-btn, #next-btn {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+}
+ .shopnow {
+    background-color: var(--main-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+  
+#shopnow:hover {
+    background-color:var(--main-color);
+}
+footer {
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 150px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section .social-icons span {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
